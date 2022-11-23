@@ -1,9 +1,12 @@
 # Regularized-Regression-boston
 Regularized Regression for Boston Housing
 
-![download (2)](https://user-images.githubusercontent.com/113813929/202761138-cebdcd6f-b8ee-48e1-8252-84673655305e.jpeg)
+![Security Features (1)](https://user-images.githubusercontent.com/113813929/203614358-2ee8df8f-e7aa-4da2-b934-2d52c298475f.jpg)
 
 Here I try to do regularized regression as part of weekly assignment for dibimbing Data Science Class Batch 16, with [boston](https://github.com/pararawendy/dibimbing-materials/blob/main/boston.csv) dataset. I compared between Ridge and Lasso methods, based on their RMSE, MAE and/or MAPE value. <br>
+
+Lasso is short for Least Absolute Shrinkage and Selection Operator, which is used both for regularization and model selection. If a model uses the L1 regularization technique, then it is called lasso regression. Meanwhile, ridge regression puts a similar constraint on the coefficients by introducing a penalty factor. However, while lasso regression takes the magnitude of the coefficients, ridge regression takes the square. <br>
+[source](https://www.datacamp.com/tutorial/tutorial-lasso-ridge-regression)
 
 **Dataset Explanation** <br>
 `crim` : Criminal Rate <br>
